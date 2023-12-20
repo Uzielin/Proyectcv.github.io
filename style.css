@@ -1,0 +1,145 @@
+/* Reset de estilos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body{
+    width: 100%;
+    height: 700px;
+background-color: black;
+}
+
+.padre{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.hijo2 {
+    width: 75%;
+    height: 100%;
+    background-color:rgb(53, 78, 99);
+    border-radius: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+
+}
+.hijo1 {
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    border-radius: 50%;
+    background-color: rgb(53, 78, 99);
+    color: whitesmoke;
+    border: 1px rgb(225, 223, 231) solid;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+
+
+}
+
+
+
+.nieto{
+    width:75%;
+    height: 30%;
+    
+    color: white;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+font-size: medium;
+
+}
+.nieto2{
+    width:100%;
+    height: 20%;
+
+color: whitesmoke;
+display: flex;
+align-items: start;
+flex-direction: column;
+justify-content: center;
+font-size: medium;
+border: 1px solid black;
+}
+#name{
+    display: flex;
+    justify-content: center;
+align-items: start;
+font-size: 200%;
+}
+
+#img{
+    object-fit: contain;
+    width: 50%;
+    height: 20%;
+border-radius: 100%;
+
+}
+
+#Face{
+    position: fixed;
+    right: 0%;
+    top: 0%;
+}
+#Insta {
+    position: fixed;
+    right: 0%;
+    top: 11%;
+}
+@media screen 
+  and (min-device-width: 0px) 
+  and (max-device-width: 425px) 
+
+  { body{background-color:black;
+width: 100vw;
+height: 100vh;}
+  .padre{display: flex;
+    flex-direction: column;
+justify-content: space-between;}
+  .hijo1{ 
+    display: flex;    width: 100%;
+
+        height: 100%;
+    }
+    .hijo2{width: 100%;
+        height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+
+    }
+  
+.nieto2{
+    width: 100%;
+    height: 100%;
+margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    font-size: small;
+border: 0cap;
+
+}
+#name{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
+}
