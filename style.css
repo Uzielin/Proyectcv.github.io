@@ -83,7 +83,7 @@ align-items: start;
 font-size: 200%;
 }
 
-#img{
+.image-profile{
     object-fit: contain;
     width: 50%;
     height: 20%;
